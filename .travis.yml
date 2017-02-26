@@ -7,7 +7,7 @@ node_js:
 
 before_script:
   - npm install -g gulp codeclimate-test-reporter
-  - npm install json-views@~1.0
+  - npm install json-views@~2.0
 script:
   - gulp build
   - gulp test
