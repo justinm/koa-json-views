@@ -1,0 +1,38 @@
+{
+  "name": "koa-json-views",
+  "version": "1.0.0",
+  "description": "Koa middleware for json-views",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "types": "./index.d.ts",
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinm/koa-json-views.git"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.0.36",
+    "@types/koa": "^2.0.38",
+    "@types/koa-router": "^7.0.21",
+    "@types/mocha": "^2.2.32",
+    "@types/request": "0.0.32",
+    "@types/should": "^8.1.30",
+    "@types/sinon": "^1.16.31",
+    "@types/supertest": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-typescript": "^3.1.2",
+    "json-views": ">=2.0.0",
+    "koa": "^2.0.1",
+    "mocha": "^3.1.2",
+    "request": "^2.76.0",
+    "should": "^11.1.1",
+    "sinon": "^1.17.6",
+    "supertest": "^3.0.0",
+    "typescript": "^2.0.3"
+  }
+}
